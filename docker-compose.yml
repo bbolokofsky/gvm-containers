@@ -36,7 +36,7 @@ services:
   gsad:
     image: admirito/gsad:11
     ports:
-      - 8080:80
+      - 8777:80
     
     environment:
       GVMD_HOST: gvmd
